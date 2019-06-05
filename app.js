@@ -84,7 +84,7 @@ app.get('/', function(req, res) {
 });
 
 
-app.listen("3001", '106.12.30.238', function() {
+app.listen("3001", '0.0.0.0', function() {
     console.log(`服务器运行在http://106.12.30.238`);
 });
 
